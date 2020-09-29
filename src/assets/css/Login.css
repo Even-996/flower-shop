@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+hr{
+    margin: 0;
+}
+p,a{
+    font-size: 0.3rem;
+    color: #000;
+    margin: 0;
+}
+.headerbar-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.headerbar-content{
+    font-size: 0.3rem;
+}
+.headerbar-left{
+    display: flex;
+    align-items: center;
+    padding-left: 0.3rem;
+    height: 100%;
+}
+.headerbar-left a{
+    font-size: 0.3rem;
+    color: #000;
+    text-decoration: none;
+}
+.headerbar-right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    height: 100%;
+    padding-right: 0.3rem;
+}
+.headerbar-right a{
+    text-decoration: none;
+}
+.headrbar{
+    height: 0.8rem;
+    background-color: #fff;
+}
+.huaLogo{
+    text-align: center;
+    margin-top: 0.7rem;
+}
+.huaLogo>img{
+    width: 3.4rem;
+}
+.logins{
+    padding: 0 0.38rem;
+}
+.login-item{
+    margin-top: 0.6rem;
+    border-bottom: 0.01rem #e9ecf0 solid;
+}
+.login-item-title{
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.login-item-info{
+    font-size: 0.28rem;
+    line-height: 0.28rem;
+    margin-top: 0.1rem;
+}
+.login-item-info>input{
+    border: none;
+    padding: 0.2rem 0.05rem 0.15rem;
+    width: 80%;
+    outline: 0;
+}
+.login-item-info span{
+    font-size: 0.2rem;
+    color: #999;
+}
+.login-item-info a{
+    text-decoration: none;
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+.to-login{
+    font-size: 0.34rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #ff734c;
+    border: 1px solid #ff734c;
+    border-radius: 0.45rem;
+    outline: 0;
+}
+.login-by-password{
+    font-size: 0.34rem;
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #999;
+}
+.quick{
+    margin: 0.8rem auto 0.2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+.quick-tips{
+    font-size: 0.26rem;
+    line-height: 0.26rem;
+    color: rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+    margin:-0.15rem auto 0.1rem;
+    width: 2.4rem;
+    text-align: center;
+}
+.quick-login{
+   padding: 0.2rem 0.3rem;
+}
+.quick-login-item{
+    font-size: 0.25rem;
+    text-align: center;
+}
+.quick-login-item img{
+    width: 0.48rem;
+}
+.quick-login-item span{
+    margin-left: 0.1rem;
+}

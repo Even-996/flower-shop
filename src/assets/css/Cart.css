@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+.wode-main{
+    background: #E9ECF0;
+    height: 14rem;
+  }
+hr{
+    margin: 0;
+}
+p,a{
+    font-size: 0.3rem;
+    color: #000;
+    margin: 0;
+}
+.headerbar-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.headerbar-content{
+    font-size: 0.3rem;
+}
+.headerbar-left{
+    display: flex;
+    align-items: center;
+    padding-left: 0.3rem;
+    height: 100%;
+}
+.headerbar-left a{
+    font-size: 0.3rem;
+    color: #000;
+    text-decoration: none;
+}
+.headrbar2{
+    height: 0.8rem;
+    background-color: #fff;
+}
+.login{
+    width: 100%;
+    background-color: #fff0ec;
+    border: 1px solid rgba(255, 115, 76, 0.2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login span{
+    font-size: 0.2rem;
+    line-height: 1rem;
+}
+.login-btn{
+    border: 1px solid #ff734c;
+    color: #FF734C;
+    font-size: 0.25rem;
+    width: 1.4rem;
+    margin-left: 0.2rem;
+    height: 0.5rem;
+    display: inline-block;
+    line-height: 0.5rem;
+    border-radius: 0.4rem;
+}
+.emptycart{
+    padding: 0.9rem 0 1rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.15rem solid #eee;
+}
+.emptycart img{
+    width: 2.5rem;
+    margin-left: -0.3rem;
+}
+.emptycart p{
+    margin-top: 0.45rem;
+    font-size: 0.25rem; 
+    letter-spacing: 0.01rem;
+}
+.emptycart a{
+    background-color: #FF734C;
+    color: #fff;
+    font-size: 0.3rem;
+    font-weight: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 2.2rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-radius: 0.4rem;
+}
+.guess-title{
+    font-size: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 0.3rem;
+}
+.guess-item{
+   width: 48%;
+   box-shadow: 0rem 0.2rem 0.2rem 0rem #dee2e5;
+   border-radius: 0.1rem;
+   display: inline-block;
+   margin: 0 0.9% 0.1rem;
+   overflow: hidden;
+}
+.guess-item-img img{
+    width: 100%;
+}
+.guess-item-info{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 0.1rem;
+}
+.guess-item-info span{
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+}
+.guess-item-price{
+    color:#FF734C;
+    line-height: 0.25rem;
+    margin:0.15rem 0;
+}
+.guess-bottom{
+    margin: 0.1rem 0;
+    text-align: center;
+}
+.guess-bottom span{
+    font-size: 0.25rem;
+    color: #71797F;
+    line-height: 0.3rem;
+}
